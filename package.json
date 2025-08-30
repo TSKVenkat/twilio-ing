@@ -1,0 +1,25 @@
+{
+  "name": "twilio-whatsapp-sender",
+  "version": "1.0.0",
+  "description": "A JavaScript script to send WhatsApp messages using Twilio",
+  "main": "send-whatsapp.js",
+  "scripts": {
+    "start": "node send-whatsapp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twilio",
+    "whatsapp",
+    "messaging",
+    "sms"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "twilio": "^4.19.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
